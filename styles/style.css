@@ -1,0 +1,406 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FEF7F2;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin-bottom: 85px;
+    padding-top: 53px;
+}
+
+.header_nav {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2b1b12;
+}
+
+.nav_items:last-child {
+    margin-right: 0;
+}
+
+.nav_items {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header_buttons a {
+
+    margin-right: 40px;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 8px;
+    width: 122px;
+    height: 48px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2b1b12;
+    border: none;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.header_buttons img {
+    display: block;
+    display: inline-block;
+}
+
+.intro {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.intro_inner {
+    display: flex;
+
+}
+
+.intro_h1 span {
+    width: 514px;
+    white-space: nowrap;
+    line-height: 100px;
+}
+
+.intro_h1 {
+    width: 514px;
+    height: 172px;
+    font-weight: 800;
+    font-size: 74px;
+    color: #2b1b12;
+    margin-bottom: 32px;
+}
+
+.intro_p {
+    width: 413px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4f3527;
+    margin-bottom: 72px;
+}
+
+.intro_btn {
+    border-radius: 8px;
+    width: 176px;
+    height: 58px;
+
+    color: #fff;
+    background-color: #2b1b12;
+    border: none;
+
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 240px;
+}
+
+.intro_right img {
+    position: absolute;
+    right: 233px;
+    top: -178px;
+}
+
+.rectangle {
+    width: 1070px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #DDC7BB;
+    border-radius: 18px;
+    margin-top: -185px;
+    position: relative;
+}
+
+.rectangle_inner {
+
+    padding: 51px 32px;
+    display: flex;
+}
+
+.rectangle_grid {
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-right: 48px;
+}
+
+.rectangle_grid_items {
+    height: 58px;
+    width: 252px;
+    border-radius: 8px;
+    padding: 18px 15px;
+    background-color: #FBF5F1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle_text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #695346;
+}
+
+.rectangle_btn {
+    border: none;
+    border-radius: 8px;
+    width: 156px;
+    height: 58px;
+    background-color: #2b1b12;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.DreamHome {
+    padding-top: 143px;
+    margin-bottom: 144px;
+
+}
+
+.dreamHome_inner {
+    display: flex;
+}
+
+.dreamHome_left img {
+    border-radius: 18px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+.dreamHome_left {
+    margin-right: 106px;
+}
+
+.dreamHome_h2 {
+    margin-top: 0;
+    width: 514px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2b1b12;
+    margin-bottom: 32px;
+}
+
+.dreamHome_text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4f3527;
+    margin-bottom: 48px;
+}
+
+.dreamHome_right_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 62px;
+    white-space: nowrap;
+}
+
+.grid_h3 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #4f3527;
+    margin: 0;
+}
+
+.grid_p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4f3527;
+}
+
+.choosingUs {
+    margin-bottom: 144px;
+}
+
+.section_title {
+    text-align: center;
+}
+
+.section_h3 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2b1b12;
+    margin-bottom: 16px;
+}
+
+.choosingUs_p {
+    padding: 0;
+    margin: 0 auto;
+    width: 629px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4f3527;
+    margin-bottom: 64px;
+}
+
+.choosingUs_grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+
+}
+
+.choosingUs_grid_items {
+    box-shadow: 0 4px 30px 0 rgba(43, 27, 18, 0.12);
+
+    padding: 30px 24px 27px 24px;
+    background-color: #ddc7bb;
+    width: 275px;
+    height: 268px;
+    border-radius: 18px;
+}
+
+.image {
+    display: flex;
+    border-radius: 8px;
+    width: 83px;
+    height: 83px;
+    background-color: #fbf5f1;
+    margin-bottom: 21px;
+}
+
+.image img {
+    padding: 16px;
+
+}
+
+.choosingUs_grid_h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2b1b12;
+    padding-bottom: 12px;
+}
+
+
+.choosingUs_grid_p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4f3527;
+}
+
+.residences {
+    margin-bottom: 144px;
+}
+
+.residences_inner {}
+
+.section_title {}
+
+.residences_grid {
+
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.residences_grid_items {}
+
+.residences_grid_items img {
+    box-shadow: 0 4px 30px 0 rgba(43, 27, 18, 0.12);
+    background: #ddc7bb;
+    border-radius: 18px 18px 0 0;
+}
+
+.residences_text {
+    margin-top: -5px;
+    padding: 18px 30px 24px 20px;
+    background-color: #ddc7bb;
+    border-radius: 0 0 18px 18px;
+}
+
+.address {
+    display: flex;
+
+}
+
+address {
+    text-decoration: none;
+    font-style: normal;
+    padding-left: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2b1b12;
+   
+}
+
+.homeSizes {
+    padding-top: 25px;
+    display: flex;  font-weight: 600;
+    font-size: 18px;
+    color: #4f3527;
+    margin-bottom: 25px;
+}
+
+.rooms {
+margin-right: 39px;
+}
+.rooms img {
+    background-color: #fff;
+    border-radius: 3px;
+}
+.home_size img{ 
+    background-color: #fff;
+    border-radius: 3px;
+}
+.button_howMutch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_howMutch button{
+    width: 98px;
+height: 40px;
+border: none;
+background-color: #2b1b12;
+color: #fff;
+border-radius: 8px;
+
+font-weight: 600;
+font-size: 14px;
+
+}
+.button_howMutch span {
+    
+font-weight: 700;
+font-size: 22px;
+color: #4f3527;
+}
