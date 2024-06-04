@@ -7,7 +7,11 @@ html {
 *::before {
     box-sizing: inherit;
 }
-
+ul, li{
+    margin: 0;
+    padding: 0;
+     list-style: none;
+}
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -17,6 +21,7 @@ body {
 
 
 .container {
+   
     max-width: 1232px;
     margin: 0 auto;
 }
@@ -75,6 +80,7 @@ header {
 }
 
 .intro {
+ 
     position: relative;
     margin-bottom: 100px;
 }
@@ -320,9 +326,6 @@ header {
     margin-bottom: 144px;
 }
 
-.residences_inner {}
-
-.section_title {}
 
 .residences_grid {
 
@@ -332,7 +335,7 @@ header {
     gap: 60px;
 }
 
-.residences_grid_items {}
+
 
 .residences_grid_items img {
     box-shadow: 0 4px 30px 0 rgba(43, 27, 18, 0.12);
@@ -359,55 +362,63 @@ address {
     font-weight: 700;
     font-size: 20px;
     color: #2b1b12;
-   
+
 }
 
 .homeSizes {
     padding-top: 25px;
-    display: flex;  font-weight: 600;
+    display: flex;
+    font-weight: 600;
     font-size: 18px;
     color: #4f3527;
     margin-bottom: 25px;
 }
 
 .rooms {
-margin-right: 39px;
+    margin-right: 39px;
 }
+
 .rooms img {
     background-color: #fff;
     border-radius: 3px;
 }
-.home_size img{ 
+
+.home_size img {
     background-color: #fff;
     border-radius: 3px;
 }
+
 .button_howMutch {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.button_howMutch button{
+
+.button_howMutch button {
     width: 98px;
-height: 40px;
-border: none;
-background-color: #2b1b12;
-color: #fff;
-border-radius: 8px;
+    height: 40px;
+    border: none;
+    background-color: #2b1b12;
+    color: #fff;
+    border-radius: 8px;
 
-font-weight: 600;
-font-size: 14px;
+    font-weight: 600;
+    font-size: 14px;
 
 }
+
 .button_howMutch span {
-    
-font-weight: 700;
-font-size: 22px;
-color: #4f3527;
+
+    font-weight: 700;
+    font-size: 22px;
+    color: #4f3527;
 }
+
 .reviews {
     background-color: #fef7f2;
 }
-.reviews h3{
+
+.reviews h3 {
     padding-top: 56px;
     width: 494px;
     margin: 0 auto;
@@ -420,57 +431,67 @@ color: #4f3527;
     gap: 43px;
     margin-bottom: 45px;
 }
-.reviews_grid_item img{
+
+.reviews_grid_item img {
     border-radius: 18px 18px 0 0;
- }
+}
 
 .reviews_grid_item {
- 
+
     width: 382px;
     height: 430px;
 }
-.reviews_text { background: #ddc7bb;
+
+.reviews_text {
+    background: #ddc7bb;
     margin-top: -5px;
-    padding: 28px 24px 34px 24px; 
+    padding: 28px 24px 34px 24px;
     height: 261px;
     border-radius: 0 0 18px 18px;
 }
+
 .name {
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
 }
-.name_grid p { 
-  
+
+.name_grid p {
+
     margin: 0;
-      margin-bottom: 8px;
-      
+    margin-bottom: 8px;
+
 }
 
 .name_grid {
     display: flex;
     margin-bottom: 16px;
 }
+
 .avatar {
     height: 58px;
     width: 58px;
 }
+
 .full_nameANDcity {
-color: #2b1b12;
-padding-left: 12px;
+    color: #2b1b12;
+    padding-left: 12px;
 }
+
 .full_name {
-   
-font-weight: 700;
-font-size: 20px;
+
+    font-weight: 700;
+    font-size: 20px;
 
 }
+
 .city {
-font-weight: 600;
-font-size: 16px;
+    font-weight: 600;
+    font-size: 16px;
 
 
 }
+
 .estimation {
     background-color: #fff;
     width: 59px;
@@ -478,36 +499,39 @@ font-size: 16px;
     line-height: 24px;
     text-align: center;
     border-radius: 4px;
-    
-  
+
+
     font-weight: 600;
     font-size: 16px;
     color: #2b1b12;
 }
 
 .text_reviews {
-font-weight: 600;
-font-size: 16px;
-line-height: 21px; 
-color: #4f3527;
-margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4f3527;
+    margin: 0;
 }
+
 .ellipses {
-   display: flex;
-   text-align: center;
- 
-  justify-content: center;
-  gap: 36px;
- padding-bottom: 56px;
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+    gap: 36px;
+    padding-bottom: 56px;
 }
+
 .elipse1 {
     width: 58px;
     height: 58px;
     border-radius: 100%;
     padding-top: 21px;
     background-color: #2b1b12;
-     
+
 }
+
 .elipse2 {
     width: 58px;
     height: 58px;
@@ -516,3 +540,147 @@ margin: 0;
     background-color: #2b1b12;
 }
 
+.questions_inner {
+    padding-top: 144px;
+}
+
+.question_h3 {
+    width: 666px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.chat_faq {
+ 
+    width: 586px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #543e32;
+    margin-bottom: 66px;
+
+}
+.chat_faq img{
+margin-right: 8px;
+}
+
+.chat span {
+    margin-right: 68px;
+}
+
+
+.chat_i_faq {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  
+  
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 149px;
+}
+
+
+.for_question {
+    border-radius: 8px;
+    width: 505px;
+    height: 58px;
+    box-shadow: 0 4px 30px 0 rgba(43, 27, 18, 0.12);
+    background: #ddc7bb;
+    width: 505px;
+    border: none;
+    margin-right: 16px;
+
+
+}
+
+.question_btn {
+    font-family: "Montserrat", sans-serif;
+    width: 156px;
+    height: 58px;
+    background: #2b1b12;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+}
+
+.for_question::placeholder {
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #543e32;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 56px;
+    padding-top: 18px;
+
+}
+
+.for_question::placeholder::before {
+    content: url(../images/email.png);
+    width: 26px;
+
+}
+footer {
+    background: #ddc7bb;
+    padding-top: 92px;
+    padding-bottom: 202px;
+
+}
+ .footer_inner {
+  max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer_titles_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.footer_lists_grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+.footer_text {
+    font-weight: 700;
+font-size: 18px;
+color: #4f3527;
+line-height: 23px; 
+margin-right: 149px;width: 219px;
+}
+.footer_list h3 {
+    
+    font-weight: 600;
+    font-size: 18px;
+   line-height: 23px; 
+    color: #4f3527;
+}
+.footer_list li{
+  margin-bottom: 36px;
+font-weight: 700;
+font-size: 18px;
+color: #4f3527;
+}
+
+
+.footer_list img {
+
+    margin-right: 10px;
+    display: inline;
+}
+  
+.social {
+   display:flex;
+ align-items: center;
+    
+}
+  
